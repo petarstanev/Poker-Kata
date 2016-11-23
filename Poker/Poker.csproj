@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="FactoryHand.cs" />
     <Compile Include="Hand.cs" />
     <Compile Include="HighestCardHand.cs" />
+    <Compile Include="ICalculateStrenght.cs" />
     <Compile Include="PairHand.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="PokerScorer.cs" />

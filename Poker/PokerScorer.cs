@@ -12,7 +12,6 @@ namespace Poker
 
             var parser = new Parser();
             parser.StringToHands(input, out player1Hand, out player2Hand);
-
             return true;
         }
     }

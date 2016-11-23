@@ -8,5 +8,9 @@ namespace Poker
 {
     public class PairHand : Hand
     {
+        public PairHand(List<Card> cards) 
+        {
+
+        }
     }
 }

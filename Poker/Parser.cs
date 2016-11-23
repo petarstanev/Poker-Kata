@@ -28,9 +28,6 @@ namespace Poker
             }
         }
 
-        private bool IsPair(List<Card> cards)
-        {
-            return cards.Select(x => x.Value).Distinct().Count() == 4;
-        }
+        
     }
 }
