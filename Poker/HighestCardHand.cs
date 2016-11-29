@@ -8,8 +8,15 @@ namespace Poker
 {
     public class HighestCardHand : Hand
     {
-        public HighestCardHand(List<Card> cards) : base(cards,1)
+        public HighestCardHand(List<Card> cards) : base(cards, 1)
         {
+            foreach (var card in cards)
+            {
+                if (card.Value> CardStrenght)
+                {
+                    CardStrenght = card.Value;
+                }
+            }
         }
     }
 }

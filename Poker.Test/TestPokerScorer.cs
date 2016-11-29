@@ -23,7 +23,7 @@ namespace Poker.Test
         public void ItShouldMarkAPairOfEightsBetterHigherCard()
         {
             //Given
-            string input = "5H 5C 6S 7S KD 2C 3S 5S 8D TD";
+            string input = "5H 3C 6S 7S KD 2C 3S 8S 8D TD";
 
             //When
             var scorer = new PokerScorer();
@@ -31,6 +31,20 @@ namespace Poker.Test
 
             //Then
             Assert.IsFalse(result);
+        }
+
+        [TestMethod]
+        public void ItShouldMarkHigherCardSevenBetterHigherCardTen()
+        {
+            //Given
+            string input = "2C 3S 5S 8D 10D 5H 3C 6S 7S 2D";
+
+            //When
+            var scorer = new PokerScorer();
+            var result = scorer.Player1Won(input);
+
+            //Then
+            Assert.IsTrue(result);
         }
     }
 }
