@@ -8,9 +8,8 @@ namespace Poker
 {
     public class HighestCardHand : Hand
     {
-        public HighestCardHand(List<Card> cards)
+        public HighestCardHand(List<Card> cards) : base(cards,1)
         {
-            Cards = cards;
         }
     }
 }

@@ -16,9 +16,6 @@ namespace Poker
             else {
                 return new HighestCardHand(cards);
             }
-
-
-            return null;
         }
 
         private static bool IsPair(List<Card> cards)

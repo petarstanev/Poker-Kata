@@ -8,11 +8,11 @@ namespace Poker
 {
     public abstract class Hand 
     {
-        public List<Hand> cards;
+        public List<Card> cards;
 
-        public int handStrenght{ get; set; }
-        public int cardStrenght { get; set; }
-        public int suitStrenght { get; set; }
+        public int HandStrenght{ get; set; }
+        public int CardStrenght { get; set; }
+        public int SuitStrenght { get; set; }
 
         public List<Card> Cards { get; set; }
 
@@ -21,7 +21,13 @@ namespace Poker
             throw new NotImplementedException();
         }
 
-        public Hand(List<Hand> cards) {
+        protected Hand(List<Card> cards,int  handStrenght) {
+            this.cards = cards;
+            this.HandStrenght = handStrenght;
+        }
+
+        public Hand(List<Card> cards)
+        {
             this.cards = cards;
         }
     }
