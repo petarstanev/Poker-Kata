@@ -21,7 +21,7 @@ namespace Poker
             throw new NotImplementedException();
         }
 
-        protected Hand(List<Card> cards,int  handStasdsadsadrenght) {
+        protected Hand(List<Card> cards,int  handStasdsrenght) {
             this.cards = cards;
             this.HandStrenght = handStrenght;
         }
