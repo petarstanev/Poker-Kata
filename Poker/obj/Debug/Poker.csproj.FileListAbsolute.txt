@@ -2,8 +2,8 @@ C:\Git\Poker\Poker\bin\Debug\Poker.exe.config
 C:\Git\Other\Poker\Poker\bin\Debug\Poker.exe.config
 C:\Git\Other\Poker\Poker\bin\Debug\Poker.exe
 C:\Git\Other\Poker\Poker\bin\Debug\Poker.pdb
-C:\Git\Other\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
 C:\Git\Other\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
 C:\Git\Other\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
 C:\Git\Other\Poker\Poker\obj\Debug\Poker.exe
 C:\Git\Other\Poker\Poker\obj\Debug\Poker.pdb
+C:\Git\Other\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
